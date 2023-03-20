@@ -1,0 +1,103 @@
+*{
+  font-family: "ubuntu", serif; /*Setting font-family for all elements*/
+}
+.content-wrapper{
+  background-color: #e7e7e7;
+}
+.heading-1{
+  background-color:	#f1f1f1;
+  font-size: 2.8rem;
+}
+.heading-2{
+  background-color:	#f1f1f1;
+  font-size: 1.8rem;
+}
+.dashboard-stat {
+  position: relative;
+  display: block;
+  margin: 0 0 25px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+}
+.dashboard-stat .visual {
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 35px;
+}
+.dashboard-stat .visual > i {
+  margin-left: -5px;
+  font-size: 80px;
+  line-height: 110px;
+  color: #fff;
+  opacity: 0.4;
+}
+.dashboard-stat .details {
+  position: absolute;
+  right: 15px;
+  padding-right: 15px;
+  color: #fff;
+}
+.dashboard-stat .details .number {
+  padding-top: 25px;
+  text-align: right;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.dashboard-stat .details .number .desc {
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 17px;
+  letter-spacing: 0;
+  font-weight: 300;
+}
+.number,.desc{
+  font-weight: bold;
+}
+.dashboard-stat.blue {
+  background-color: #007bff;
+}
+.dashboard-stat.red {
+  background-color: #d81b27;
+}
+.dashboard-stat.purple {
+  background-color: #8E44AD;
+}
+.dashboard-stat.hoki {
+  background-color: #67809F;
+}
+
+.dashboard-stat:hover{
+  background-color: #333;
+}
+
+/* custom scrollbar for table body */
+
+.dataTables_scrollBody::-webkit-scrollbar{
+  width: 10px;
+}
+.dataTables_scrollBody::-webkit-scrollbar-track{
+  background-color: #e7e7e7;
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb{
+  background-color: #a1a1a1;
+  border-radius: 10px;
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb:hover{
+  background-color: #777;
+}
+.dataTables_scrollBody{
+  overflow-y: hidden!important;
+}
+.dataTables_scrollBody:hover{
+  overflow-y: scroll!important;
+}

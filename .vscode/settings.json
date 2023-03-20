@@ -1,0 +1,6 @@
+{
+    "javascript.suggest.completeFunctionCalls": true,
+    "php.memoryLimit": "1024M",
+    "php.executablePath": "/usr/bin/",
+    "diffEditor.wordWrap": "on"
+}

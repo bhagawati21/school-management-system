@@ -1,0 +1,16 @@
+*{
+  font-family: "ubuntu", serif; /*Setting font-family for all elements*/
+}
+body{
+  background-color: #e7e7e7;
+}
+.logo{
+  width: 300px;
+  height: auto!important;
+  background-color: #ddd7dd;
+  border-radius: 5px;
+  padding: 5px;
+}
+.hover-color{
+  color: rgb(25, 132, 204)!important;
+}
